@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "html-living-framework/*": ["../html-living-framework/src/*"]
+    },
+    "strict": true,
+    "strictNullChecks": false,
+    "module": "ESNext",
+    "outDir": "dist",
+    "target": "es6",
+    "rootDir": ".",
+    "moduleResolution": "Node",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "ESNext",
+      "dom"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "build_scripts"
+  ],
+}
