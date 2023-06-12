@@ -2,7 +2,7 @@
   "name": "hlf-example-template",
   "version": "0.0.0",
   "description": "Example Made with HTML Living Framework",
-  "main": "src/index.html",
+  "main": "index.js",
   "scripts": {
     "start": "vite",
     "dev": "vite",
