@@ -1,0 +1,11 @@
+{
+  "title": "HLF Example Template",
+  "description": "A template for creating new examples for the HLF.",
+  "iconUrl": "https://example.com/icon.png",
+  "tags": [
+    "pixi.js",
+    "game",
+    "typescript"
+  ],
+  "published": false
+}
