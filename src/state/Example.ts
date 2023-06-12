@@ -63,7 +63,6 @@ export class Example extends ExampleBase {
         pt
       );
     });
-    // end
   }
 
   public static get Assets(): AssetMapData[] {
