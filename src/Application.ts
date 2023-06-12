@@ -7,7 +7,7 @@ import {
 	AssetMapData,
 	AssetType,
 	SplashScreen as HLFSplashScreen,
-	TextureAsset,
+	TextureAsset
 } from "html-living-framework";
 
 export default class Application extends HLFApplication {

@@ -56,7 +56,7 @@ export default defineConfig((config) => ({
 	resolve: {
 		alias: {
 			"@": path.resolve(__dirname, "./src"),
-			"html-living-framework": path.resolve(__dirname, "./lib"),
+			"html-living-framework": path.resolve(__dirname, "./relish-hlf/src"),
 		},
 	},
 }));

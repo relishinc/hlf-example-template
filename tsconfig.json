@@ -1,32 +1,39 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"],
-      "html-living-framework/*": ["../html-living-framework/src/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "html-living-framework/*": [
+        "./relish-hlf/src/"
+      ]
     },
     "strict": true,
     "strictNullChecks": false,
-    "module": "ESNext",
+    "module": "ES6",
     "outDir": "dist",
-    "target": "es6",
+    "target": "ES5",
     "rootDir": ".",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
-    "isolatedModules": true,
     "noEmit": true,
     "esModuleInterop": true,
     "sourceMap": true,
     "allowJs": true,
     "resolveJsonModule": true,
     "lib": [
-      "ESNext",
-      "dom"
+      "dom",
+      "es2015",
+      "es2016",
+      "es2017"
     ]
   },
   "include": [
     "src"
   ],
   "exclude": [
-    "build_scripts"
-  ],
+    "build_scripts",
+    "node_modules",
+    "lib"
+  ]
 }

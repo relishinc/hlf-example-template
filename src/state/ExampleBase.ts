@@ -11,6 +11,7 @@ export class ExampleBase extends State {
 
 	public constructor() {
 		super();
+
 	}
 
 	public init(pSize: Point) {

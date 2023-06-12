@@ -1,0 +1,47 @@
+{
+  "name": "html-living-framework",
+  "version": "1.0.0",
+  "description": "Relish framework for HTML games",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint -c tslint.json \"src/**/*.ts\"",
+    "docs": "typedoc --ignoreCompilerErrors --mode modules --out docs src",
+    "prepare": "node ./build_scripts/version.ts && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relishinc/hlf.git"
+  },
+  "keywords": [
+    "game",
+    "dev",
+    "html"
+  ],
+  "author": "Relish Interactive",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/relishinc/hlf#readme",
+  "devDependencies": {
+    "@types/howler": "latest",
+    "@types/matter-js": "^0.18.5",
+    "@types/pubsub-js": "latest",
+    "tslint": "latest",
+    "typedoc": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@pixi/filter-outline": "^5.2.0",
+    "@pixi/layout": "^0.1.8",
+    "@pixi/ui": "^0.7.2",
+    "gsap": "latest",
+    "howler": "latest",
+    "keycode": "latest",
+    "matter-js": "^0.19.0",
+    "pixi-spine": "^4.0.4",
+    "pixi.js": "^7.2.4",
+    "pubsub-js": "latest",
+    "typescript-collections": "latest",
+    "vite-plugin-static-copy": "^0.14.0"
+  }
+}
