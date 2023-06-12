@@ -2,12 +2,14 @@
   "name": "html-living-framework",
   "version": "1.0.0",
   "description": "Relish framework for HTML games",
-  "main": "./src/index.ts",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
     "lint": "tslint -c tslint.json \"src/**/*.ts\"",
-    "docs": "typedoc --ignoreCompilerErrors --mode modules --out docs src"
+    "docs": "typedoc --ignoreCompilerErrors --mode modules --out docs src",
+    "prepare": "node ./build_scripts/version.ts && npm run build",
+    "copy": "copyfiles ./src/**/* ../hlf-example-template/relish-hlf/src && copyfiles ./package.json ../hlf-example-template/relish-hlf && copyfiles ./package-lock.json ../hlf-example-template/relish-hlf"
   },
   "repository": {
     "type": "git",
