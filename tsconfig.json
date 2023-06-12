@@ -5,7 +5,7 @@
         "./src/*"
       ],
       "html-living-framework/*": [
-        "./relish-hlf/src/"
+        "./relish-hlf/src/*"
       ]
     },
     "strict": true,
