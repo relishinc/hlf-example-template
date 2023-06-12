@@ -1,6 +1,6 @@
 import {Example} from "@/state/Example";
-import {Interstitial} from "@/state/Interstitial.ts";
-import {SplashScreen} from "@/state/SplashScreen.ts";
+import {Interstitial} from "@/state/Interstitial";
+import {SplashScreen} from "@/state/SplashScreen";
 import * as Constants from "@/utils/Constants";
 import {
 	Application as HLFApplication,

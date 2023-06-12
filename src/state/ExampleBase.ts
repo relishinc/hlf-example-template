@@ -1,4 +1,4 @@
-import {GREEN} from "@/utils/Constants.ts";
+import {GREEN} from "@/utils/Constants";
 import {gsap} from "gsap";
 import {AssetMapData, AssetType, State, TextureAsset} from "html-living-framework";
 import {Point, Sprite, Text} from "pixi.js";

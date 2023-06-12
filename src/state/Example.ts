@@ -1,4 +1,4 @@
-import {ExampleBase} from "@/state/ExampleBase.ts";
+import {ExampleBase} from "@/state/ExampleBase";
 import {AssetMapData} from "html-living-framework";
 import {Point} from "pixi.js";
 

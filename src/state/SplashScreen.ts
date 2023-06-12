@@ -1,4 +1,4 @@
-import {GREEN} from "@/utils/Constants.ts";
+import {GREEN} from "@/utils/Constants";
 import {gsap} from "gsap";
 import {AssetMapData, LoadScreen} from "html-living-framework";
 import {Point, Sprite} from "pixi.js";
