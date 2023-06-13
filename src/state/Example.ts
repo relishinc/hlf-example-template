@@ -9,11 +9,10 @@ export class Example extends ExampleBase {
 
 	public init(pSize: Point) {
 		super.init(pSize);
-		this.setHeaderText("Example");
-		this.setMainText("Add some instructions for the example here.");
+		// write some code here for this example
 	}
 
 	public static get Assets(): AssetMapData[] {
-		return []
+		return [];
 	}
 }
