@@ -9,6 +9,9 @@ export class Example extends ExampleBase {
 
 	public init(pSize: Point) {
 		super.init(pSize);
+
+		this.setHeaderText("Example");
+		this.setMainText("Put some instructions here.")
 		// write some code here for this example
 	}
 
